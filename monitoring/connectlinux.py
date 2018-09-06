@@ -33,12 +33,12 @@ def getlinuxcpu(ssh):
 
 mail_host = "smtp.exmail.qq.com"
 # 收件人
-rec_user = ["zhangxianqing@czb365.com","guozhizhong@czb365.com","zhangmeng@czb365.com","kongshengmin@czb365.com","lishulei@czb365.com","jianghongwei@czb365.com","dongjixing@czb365.com","leiwenwei@czb365.com","baiguangbin@czb365.com","zhangding@czb365.com","liyueguang@czb365.com","hujiangfeng@czb365.com","tangshuai@czb365.com"]
+rec_user = ["xxxx@xxxx.com","xxx@xxxx.com"]
 
 # 发件人密码
-mail_pass = "GZZasd123"
+mail_pass = "xxxx"
 # 发件人
-sender = "guozhizhong@czb365.com"
+sender = "xxxx@xxxx.com"
 message = MIMEMultipart()
 message['From'] = formataddr(["Python", sender])
 message['To'] = formataddr(["Me", rec_user])
@@ -106,8 +106,8 @@ def getlinuxspace(ssh):
 if __name__ == '__main__':
     hostname=['59.110.173.47','172.17.194.156','172.17.194.158','172.17.194.181','172.17.194.182','172.17.194.183','172.17.194.184','47.94.128.247']
     #hostname = ['59.110.173.47']
-    username='deploy'
-    password='czb2017'
+    username='xxxx'
+    password='xxxx'
     try:
         sysout=''
         for ip in hostname:
